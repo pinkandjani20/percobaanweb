@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entertainment Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: #444;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .section div {
+            flex: 1;
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Entertainment Hub</h1>
+        <p>Your gateway to the latest in Movies, Music, Games, and more!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="section">
+            <div>
+                <h2 class="section-title">Latest Movies</h2>
+                <p>Explore the most recent blockbusters and hidden gems in the movie world.</p>
+            </div>
+            <div>
+                <h2 class="section-title">Top Music Hits</h2>
+                <p>Discover the hottest tracks and albums from your favorite artists.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <div>
+                <h2 class="section-title">Popular Games</h2>
+                <p>Get updates on the latest releases, top games, and reviews.</p>
+            </div>
+            <div>
+                <h2 class="section-title">TV Shows You Must Watch</h2>
+                <p>Catch up on the best TV shows from different genres and platforms.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Entertainment Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
